@@ -1,0 +1,21 @@
+{
+    "name": "vendor/llc",
+    "description": "This is for practice purpose",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasib Muhammad",
+            "email": "hasibmu99@gmail.com"
+        }
+    ],
+    "require": {
+        "phroute/phroute": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+    
+}
